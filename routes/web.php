@@ -20,10 +20,6 @@ Route::get('/editpost', function () {
     return view('editpost');
 });
 
-Route::get('/test', function () {
-    return view('test');
-});
-
 Route::post('/posts', 'PostController@create');
 Route::delete('/delete/{post}', 'PostController@delete');
 Route::get('/seeposts', 'PostController@getAllPosts');
