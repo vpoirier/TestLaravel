@@ -10,5 +10,7 @@ class Mark extends Model
         'value',
         'id_post',
         'id_user'
-    ];
+];
+
+
 }

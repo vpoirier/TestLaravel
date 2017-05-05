@@ -25,7 +25,8 @@ class Post extends Model
    			$averageMark += $mark->value;
    		}
    		$averageMark /= count($marks);
+	// comment master
+	return round($averageMark, 2)."/5";
 
-   		return round($averageMark, 2)."/5";
     }
 }
